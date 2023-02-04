@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/alura.png" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="img/alura.png" alt="logo-alura" />
+    </header>
+    <main>
+      <section>
+        <textarea
+          class="text-area"
+          cols="30"
+          rows="10"
+          placeholder="Ingrese el texto aqui"
+        ></textarea>
+        <div>
+          <h6 class="adv">Solo letras minúsculas y sin acentos</h6>
+        </div>
+        <div class="botons">
+          <button class="btn-encriptar" onclick="btnEncriptar()">
+            Encriptar
+          </button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">
+            Desencriptar
+          </button>
+        </div>
+        <div id="pieDePagina">
+            <a href="https://www.linkedin.com/">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="35" height="35">
+            </a>
+            <a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="35" height="35">
+            </a>
+            <a>2023 Oscar Flores</a>
+        </div>
+      </section>
+      <section>
+        <textarea class="msj" cols="20" rows="10"></textarea>
+        <div>
+          <button class="copy" onclick="copys()">Copiar</button>
+        </div>
+      </section>
+     
+       
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
